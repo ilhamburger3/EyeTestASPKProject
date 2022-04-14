@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "202089829960",
+    "project_id": "eye-test-aspk",
+    "storage_bucket": "eye-test-aspk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202089829960:android:d8944e390728e07e58aa7d",
+        "android_client_info": {
+          "package_name": "com.example.eyetestaspkv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "202089829960-81gg61h4bd312dj0e7immsoqhidcvmjd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBlP6IJ8cZ2vX1N4MrjrHs7NxQjA-YVG5Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "202089829960-81gg61h4bd312dj0e7immsoqhidcvmjd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
