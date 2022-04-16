@@ -15,11 +15,7 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button btnLogout;
-    Button btnTestHistory;
-    Button btnEmpList;
-    Button btnEnterTestMode;
-
+    Button btnLogout, btnTestHistory, btnEmpList, btnEnterTestMode;
     FirebaseAuth mAuth;
 
     @Override

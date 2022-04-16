@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.EyeTestASPKV2">
         <activity
+            android:name=".EmployeeActivity"
+            android:exported="false" />
+        <activity
             android:name=".TestModeActivity"
             android:exported="false" />
         <activity
