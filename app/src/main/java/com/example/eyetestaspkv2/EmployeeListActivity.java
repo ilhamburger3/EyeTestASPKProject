@@ -1,6 +1,7 @@
 package com.example.eyetestaspkv2;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
@@ -26,7 +27,7 @@ public class EmployeeListActivity extends AppCompatActivity {
         employeeRecView = findViewById(R.id.employeeRecView);
 
         employeeRecView.setAdapter(adapter);
-        employeeRecView.setLayoutManager(new LinearLayoutManager(this));
+        employeeRecView.setLayoutManager(new GridLayoutManager(this, 2));
 
         adapter.setEmployees(Utils.getInstance().getAllEmployees());
 

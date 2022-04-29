@@ -22,11 +22,11 @@ import com.google.firebase.auth.FirebaseAuth;
 
 public class LoginActivity extends AppCompatActivity {
 
+
     EditText edtTxtLoginEmail;
     EditText edtTxtLoginPassword;
     Button btnRegisterHere;
     Button btnLogin;
-
     FirebaseAuth mAuth;
 
 
